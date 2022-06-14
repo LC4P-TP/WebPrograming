@@ -20,7 +20,7 @@
             <section>
                 <h2>Cat Lists</h2>
                 <h3>Things cats love:</h3>
-                <ul>
+                <ul class="centered">
                     <li>cat nip</li>
                     <li>laser pointers</li>
                     <li>Milk</li>
@@ -31,7 +31,7 @@
                 <figcaption>Cats <em>love</em> lasagna.</figcaption>  
                 </figure>
                 <h3>Top 5 things cats hate:</h3>
-                <ol>
+                <ol class="centered">
                     <li>flea treatment</li>
                     <li>take a bath</li>
                     <li>thunder</li>
@@ -46,6 +46,12 @@
             <section>
                 <h2>Cat Form</h2>
                 <form target="_blank" action="https://www.google.com/search">
+                    <div>
+                        <fieldset>
+                            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+                            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                        </fieldset>
+                    </div>
                   <input type="text" name="catphotourl" placeholder="cat photo URL" required>
                   <button type="submit">Submit</button>
                 </form>
