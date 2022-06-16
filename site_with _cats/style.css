@@ -1,5 +1,6 @@
 main {
-    background-color: slategray;
+    background-image: url("carpet.jpeg");
+    background-color: grey;
 }
 
 section {
@@ -9,7 +10,7 @@ section {
 .list {
     margin-left: auto;
     margin-right: auto;
-    width: 8em
+    width: 10em
 }
 
 .legend {
