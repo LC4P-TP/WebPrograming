@@ -1,0 +1,24 @@
+main {
+    background-image: url("carpet.jpeg");
+    background-color: grey;
+}
+
+section {
+    text-align: center;
+}
+
+.list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em
+}
+
+.legend {
+    background-color: rgb(26, 208, 178);
+}
+
+.button {
+    display: inline;
+    width: 380px;
+    background-color: rgb(26, 208, 178);
+}
