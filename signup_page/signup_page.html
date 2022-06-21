@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta charset="utf-8"/>
         <title>Registration Form</title>
-        <link rel="stylesheet" type="text/css" href="style.css/">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
         <h1>Registration Form</h1>
@@ -17,7 +17,11 @@
                     <label>Enter Your Email: <input type="email" required /></label>
                    <label>Create a New Password: <input type="password" pattern="[a-z0-5]{8,}" required /></label>
             </fieldset>
-            <fieldset></fieldset>
+            <fieldset>
+                <label><input type="radio" name="account-type"/> Personal Account</label>
+                <label><input type="radio" name="account-type"/> Business Account</label>
+                <label><input type="checkbox" required /> I accept the <a target="_blank" href="http://127.0.0.1:5500/signup_page/rules.html">terms and conditions</a></label>
+            </fieldset>
             <fieldset></fieldset>
             <input type="submit" value="Submit" />
         </form>
