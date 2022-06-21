@@ -1,3 +1,48 @@
 h1 {
     text-align: center;
 }
+
+.container {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right: 0px;
+background-color: rgb(0, 0, 0);
+}
+
+.marker {
+width: 200px;
+height: 25px;
+margin: 10px auto;
+}
+
+.one {
+background-color: rgb(255, 0, 0); /* RGB system (red, rgeen, blue) */
+}
+
+.two {
+background-color: rgb(0, 127, 0);
+}
+
+.three {
+background-color: rgb(0, 0, 255);
+}
+
+.written_color {
+    background-color: green; /* written color */
+}
+
+.hexadecimal_system {
+    background-color: #007F00; /*hexadecimal system color designation */
+}
+
+.hsl_system {
+    background-color: hsl(240, 100%, 50%); /* HSL syytem (колір на кольоровому бублику, його насиченість, яскравість) */
+}
+
+.linear_gradient {
+    background: linear-gradient(90deg, rgb(255, 0, 0) 40%, rgb(0,255,0) , rgb(0,255,255)); /* градієнт кольорів (градус з'єднання, Колір"довжина кольру 'px' або '%'", Колір"довжина кольру", і.т.д.*/
+}
+
+
+
