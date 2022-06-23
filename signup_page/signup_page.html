@@ -11,23 +11,20 @@
         <p>Please fill out this form with the required information</p>
         <form action='https://register-demo.freecodecamp.org'>
             <fieldset>
-                <fieldset>
                     <label>Enter Your First Name: <input name="first-name" type="text" required /></label>
                     <label>Enter Your Last Name: <input name="last-name" type="text" required /></label>
                     <label>Enter Your Email: <input name="email" type="email" required /></label>
                     <label>Create a New Password: <input name="password" type="password" pattern="[a-z0-5]{8,}" required /></label>
-            </fieldset>
             <fieldset>
-                <label><input type="radio" name="account-type"/> Personal Account</label>
-                <label><input type="radio" name="account-type"/> Business Account</label>
-                <label><input type="checkbox" name="rules" required /> I accept the <a target="_blank" href="http://127.0.0.1:5500/signup_page/rules.html">terms and conditions</a></label>
+                <label><input class="inline" type="radio" name="account-type"/> Personal Account</label>
+                <label><input class="inline" type="radio" name="account-type"/> Business Account</label>
+                <label><input class="inline" type="checkbox" name="rules" required /> I accept the <a target="_blank" href="http://127.0.0.1:5500/signup_page/rules.html">terms and conditions</a></label>
             </fieldset>
             <fieldset>
                 <label>Upload a profile picture: <input name="foto" type="file" /></label>
-                <label>Input your age (years): <input name="age" type="number" min="13" max="120" />
-                </label>
+                <label>Input your age (years): <input name="age" type="number" min="13" max="120" /></label>
                 <label>How did you hear about us?
-                    <select name="referrer">
+                    <select  name="referrer">
                       <option value="">(select one)</option>
                       <option value="1">freeCodeCamp News</option>
                       <option value="2">freeCodeCamp YouTube Channel</option>
