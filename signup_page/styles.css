@@ -35,13 +35,13 @@ label {
     margin: 0.5rem 0;   /*відстань між рядками*/
 }
 
-input, textarea, select {
+input, textarea {
     margin: 10px 0 0 0;
     width: 100%;
     height: 2em;
 }
 
-input, textarea  {
+input, textarea, select  {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: #ffffff;
@@ -51,6 +51,15 @@ input, textarea  {
     width: unset;
     margin: 0 0.5em 0 0;   
     vertical-align: middle;
+}
+select {
+    min-width: 101.25%;
+    height: 2.25em; 
+}
+
+textarea {
+    max-width: 500px;
+    min-width: 100%;
 }
 
 input[type="submit"] {
