@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    font-family: Arial;
+    background-color: #000000;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+    background-color: darkblue;
+  }
+
+#gallery img {
+    width: 25%;
+    height: 300px;
+}
