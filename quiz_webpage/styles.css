@@ -7,6 +7,10 @@ body {
 
 header {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
 	width: 100%;
 	height: 50px;
     background-color: #1b1b32;
@@ -33,6 +37,24 @@ nav {
 nav > ul {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+nav > ul > li {
+	color: #dfdfe2;
+	margin: 0 0.2rem;
+	padding: 0.2rem;
+	display: block;
+}
+
+li > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav > ul > li:hover {
+	color: #1b1b32;
+	background-color: #dfdfe2;
+	cursor: pointer;
 }
 
 h1, h2 {
