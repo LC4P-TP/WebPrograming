@@ -3,7 +3,7 @@
 Sandbox project for learning and understanding Web programming 
 ___________
 
-<img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeСodeСamp_logo" width="200" style="filter:invert(.5) sepia(1) saturate(5) hue-rotate(0deg)" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/2560px-FreeCodeCamp_logo.svg.png" alt="freeСodeСamp_logo" width="200" />
 
 These projects were created using the site ***[freeСodeСamp](https://www.freecodecamp.org/learn/)***
 
