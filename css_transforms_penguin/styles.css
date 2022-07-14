@@ -11,6 +11,33 @@ body {
     );
 }
 
+.left-mountain {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    position: absolute;
+    transform: skew(0deg, 44deg);
+    z-index: 2;
+    background: linear-gradient(
+        rgb(203, 241, 228), 
+        rgb(80, 183, 255)
+    );
+}
+
+.back-mountain {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 225px;
+    left: 110px;
+    z-index: 1;
+    background: linear-gradient(
+        rgb(203, 241, 228), 
+        rgb(47, 170, 255)
+    );
+}
+
 .penguin {
     width: 300px;
     height: 300px;
@@ -21,6 +48,7 @@ body {
 .ground {
     width: 100vw;
     height: 400px;
+    margin-top: -58px;
     position: absolute;  
     z-index: 3;
     background: linear-gradient(
