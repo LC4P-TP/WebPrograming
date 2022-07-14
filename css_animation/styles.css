@@ -7,6 +7,10 @@
     height: 55vw;
     max-height: 500px;
     max-width: 500px;
+    animation-name: wheel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .line {
@@ -17,6 +21,10 @@
     top: 50%;
     left: 50%;
     transform-origin: 0% 0%;
+}
+
+.line:nth-of-type(2) {
+    transform: rotate(60deg);
 }
 
 .line:nth-of-type(3) {
@@ -72,4 +80,22 @@
 .cabin:nth-of-type(6) {
     right: 17%;
     top: 7%;
+}
+
+@keyframes wheel {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes cabins {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
 }
