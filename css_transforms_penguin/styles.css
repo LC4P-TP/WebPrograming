@@ -1,3 +1,7 @@
+:root {
+    --penguin-face: white;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -73,6 +77,31 @@ body {
         gray,
         rgb(239, 240, 228)
     );
+}
+
+.face {
+    width: 60%;
+    height: 70%;
+    background-color: white;
+    border-radius: 70% 70% 60% 60%;
+    top: 15%;
+}
+
+.face.left {
+    left: 5%;
+}
+
+.face.right {
+    right: 5%;
+}
+
+.chin {
+    width: 90%;
+    height: 70%;
+    top: 25%;
+    left: 5%;
+    border-radius: 70% 70% 100% 100%;
+    background-color: white;
 }
 
 .penguin-body {
